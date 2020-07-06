@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PodRepoTest_Example' do
+  pod 'PodRepoTest', :path => '../'
+
+  target 'PodRepoTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
